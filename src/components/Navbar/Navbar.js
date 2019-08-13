@@ -7,7 +7,7 @@ class Navbar extends React.Component{
             <header className={classes.Header}>
               {/*<Link to='/'>Home</Link>*/}
               {/*<Link to='/about'>About</Link>*/}
-              <p>CS Monitor bid</p>
+              <p>CS Monitor bidder</p>
             </header>
         );
       }
