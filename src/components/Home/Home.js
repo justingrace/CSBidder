@@ -19,7 +19,7 @@ const Home = () => {
     const [bid, setBid] = useState(0);
     const [name, setName] = useState("");
     const [showResults, setShowResults] = useState(false);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [done, setDone] = useState(false);
     const [error, setError] = useState(false);
     const touchStartMonitor = () => {
