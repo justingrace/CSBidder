@@ -1,5 +1,8 @@
 .Home {
   .monitorImgHolder {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    user-select: none;
     height: 220px;
     width: 360px;
     //background: #000000;
