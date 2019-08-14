@@ -14,7 +14,7 @@ const Results = () => {
     return (
         <div className={classes.Results}>
             <h3>Results</h3>
-            {bids.length >  &&
+            {bids.length > 1 &&
             <p className={[classes.winner].join(" ")}>
                 <img src={Wreath} alt=""/>
                 <span>{bids[0].name} pays {bids[1].bid}</span>
